@@ -30,23 +30,6 @@ The best model is exposed through a lightweight Flask API so it can be consumed 
 
 ---
 
-## Project Structure
-```text
-.
-├── G3_project_1_cnn.ipynb              # Builds & trains two vanilla CNNs
-├── G3_project_1_tranferLearning.ipynb  # Fine‑tunes MobileNetV2
-├── cnn_model_2.h5                      # Best handcrafted CNN weights
-├── tl_model.h5                         # Final MobileNetV2 weights (best)
-├── deploy.py                           # Flask + TensorFlow REST API
-├── G3-project1-report.pdf              # Full technical report
-├── Group-3-project-1presentation.pptx  # Slide‑deck summary
-└── README.md                           # <––– you are here
-```
-
-> **Dataset** – CIFAR‑10 (60 k × 32 × 32 RGB) is automatically downloaded by TensorFlow/Keras inside each notebook.
-
----
-
 ## Quick Start
 
 ### 1 · Set‑up
@@ -151,10 +134,6 @@ See **`G3-project1-report.pdf`** for the full write‑up and references.
 ## License
 This repository is released under the **MIT License** – see `LICENSE` file for details.
 
----
-
-### عربي (اختياري)
-> يقدّم المشروع نموذجين لتصنيف صور ‎CIFAR‑10‎ باستخدام **شبكات الالتفاف العصبية (CNN)** وتقنية **التعلّم بالنقل (Transfer Learning)**. أفضل نموذج (MobileNetV2) متاح عبر واجهة **Flask API** لاستقبال صورة وإرجاع الفئة المتوقعة.
 
 ---
 
